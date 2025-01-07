@@ -94,6 +94,28 @@ main {
   color: #ff900f;
   font-weight: 700;
 }
+/* Facts Section */
+.facts-card-container {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.facts-card-container .card {
+  border-radius: 8px;
+  border: 1px solid sandybrown;
+  padding: 30px;
+}
+.facts-card-container .card-title {
+  margin-top: 5px;
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+.facts-card-container .card-stats {
+  font-size: 2.5rem;
+  color: #424242;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 /* Responsive part */
 /* Mobile Device */
 @media screen and (max-width: 576px) {
